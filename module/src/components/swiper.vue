@@ -16,8 +16,8 @@
 </style>
 
 <template>
-  <div class="swiper" ondragstart="return false">
-    <div class="wrap" id="wrap">
+  <div class="swiper">
+    <div class="wrap" id="wrap" ondragstart="return false">
       <img v-for="(arr, index) in arrs" :key="index"
       :src="arr.img" alt="">
     </div>

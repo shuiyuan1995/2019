@@ -8,17 +8,17 @@
 
 <template>
   <div class="home">
-    <swiper></swiper>
+    <blackhole></blackhole>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import swiper from '@/components/swiper.vue'
+import blackhole from '@/components/blackhole.vue'
 
 export default {
   components: {
-    swiper
+    blackhole
   }
 }
 </script>
