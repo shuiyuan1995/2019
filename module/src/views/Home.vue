@@ -8,17 +8,17 @@
 
 <template>
   <div class="home">
-    <blackhole></blackhole>
+    <ParticleClock></ParticleClock>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import blackhole from '@/components/blackhole.vue'
+import ParticleClock from '@/components/ParticleClock.vue'
 
 export default {
   components: {
-    blackhole
+    ParticleClock
   }
 }
 </script>
